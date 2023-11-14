@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(253, 248, 223);
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    color: rgb(250, 136, 70);
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+li {
+    display: inline;
+    font-size: 30px;
+}
+
+.city {
+    background-color: rgb(255, 239, 190);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 102, 0);
+    margin: 20px;
+    padding: 20px;
+}
+
+.models {
+    width: 75%;
+    margin: 0 auto;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /* float: left; */
+    width: 180px;
+    display: inline-block;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
